@@ -1,0 +1,394 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-ExtraBold.ttf);
+}
+.box-text{
+    border-style: solid;
+    border-radius: 0px;
+    background-color: black;
+}
+.circle-check{
+    align-items: center;
+    width: 1%;
+    padding-left: 650px;  
+}
+.starting-text{
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: px;
+    color: gray;
+    
+}
+.white-text{
+    color: white;
+}
+  
+.address-site{
+    display: inline-flex;
+    padding-left: 300px;
+}
+.email-address{
+    display: inline-flex;
+    margin-right: 400px;
+
+}
+.email-address-color{
+    color: grey;
+}
+
+.envelope-open-text-icon{
+    width: 5%;
+    margin-left: 110px;  
+}
+.phone-address{
+    display: inline-flex;
+}
+
+.phone-volume-icon{
+    width: 5%;
+    margin-right: 110px;
+}
+.phone-volume-color{
+    color: gray;
+}
+.top-catagories{
+display: flex;
+gap: 5%;
+margin-left: 400px;
+margin-top: 2%;
+font-size: 150%;
+  button{
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+  }
+}
+#home-tab{
+    color: orange;
+}
+#home-tab:hover{
+    color: orange;
+}
+.family-page{
+    width: 99%;
+    height: 850px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 2%;   
+}
+.home-page{
+    position: relative;
+    text-align: center;
+    
+}
+.centered{
+    font-family: poppins;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0,0.5);
+    width: 99%;
+    height: 95%;
+}
+.start-button{
+width: 150px;
+height: 50px;
+background-color: orange;
+color: white;
+}
+.h1{
+    font-family: poppins;
+   font-size: 600%; 
+}
+.second-page{
+    display: inline-flex;
+}
+.box{
+    width: 120px;
+    margin-left: 90px;
+}
+    
+.second-page{
+    display: inline-flex;
+    padding-left: 90px;
+}
+
+.colored-paragraph{
+    color: orange;
+}
+.box-size{
+width: -1%;
+height: 80px;
+}
+.icon{
+    position: relative;
+    overflow: visible;
+}
+#couple1{
+    padding:3%;
+    width: 90%;
+    height: 800px;
+    overflow: hidden;
+}
+.main{
+    display:flex;
+    padding:3%;
+    margin-top: -15%;
+}
+.sub{
+    color:white;
+    position: relative;
+    border: none;
+    background-color: orange;
+    padding:3% 10% 10% 25%;
+}
+form input {
+    width: 500%;
+    height: 35px;
+    border: solid 1px rgb(192, 185, 185);
+    padding: 10%;
+}
+.sub2 {
+    position: absolute;
+    border: none;
+    background-color: rgb(66, 66, 143);
+    padding: 6.95% 53px;
+    width: 767px;
+    height: auto;
+}
+.all-moving-type {
+    display: flex;
+    gap: 20px;
+    margin-top: -105px;
+    color: white;
+}
+#movingtype1 {
+    margin-left: 0;
+}
+#date {
+    margin-left: 0;
+}
+.all-moving-type input,
+.Form1 input,
+.to input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+}
+.Form1 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.to {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+}
+.to button {
+    padding: 10px 20px;
+    height: 43px;
+    margin-top: 3.5%;
+    background-color: orange;
+}
+#orangeplay{
+        position: absolute;
+        overflow: visible;
+        left:50%;
+        top: -550px;
+        cursor: pointer;
+    }
+   #dot{
+    position: absolute;
+    overflow: visible;
+    left:3%;
+    top: -880px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width:90%;
+    height: 700px;
+   }
+  .centertext{
+    text-align: center;
+  }
+  #ourtestmonial{
+    color:orange
+  }
+  .testmonials{
+    display: flex;
+    gap:13%;
+    padding: 3% 20%;
+    text-align: center;
+    line-height: 2;
+  }
+  .christine{
+    display: flex;
+    gap:32%;
+    padding: 0 20% 0;
+    text-align: center;
+    line-height: 2;
+    margin-left: 5%;
+  }
+  .customer{
+    display: flex;
+    gap:33%;
+    padding: 0 20%;
+    text-align: center;
+    line-height: 2;
+    margin-left: 5%;
+  }
+  #custom{
+    color: rgb(148, 145, 145);
+  }
+  .newspaper{
+    text-align: center;
+    padding:8% 0 0
+  }
+
+body{
+    padding: 3% 5%;
+    font-family: poppins;
+}
+.new-update{
+    display: flex;
+    margin-left: 31%;
+    gap: 1.9%;
+    margin-bottom: 4%;
+}
+.new-update input{
+    width: 30%;
+    border: none;
+    background-color: rgb(252, 244, 227);
+}
+.new-update button{
+    height: 50px;
+    width: 220px;
+    background-color: rgb(255, 187, 0);
+    border: none;
+}
+.blog{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.blog p{
+    color: rgb(255, 187, 0);
+}
+.news-images{
+    display: flex;
+ gap: 2.5%;
+    margin-left: 0%;
+    margin-bottom: -1%;
+}
+#images{
+    width:70%;
+    height:300px;
+    gap:3%;
+   
+}
+.news-1{
+    position: relative;
+    margin-left: 10%;
+}
+.news-1 img{
+    height: 67%;
+    width: 48%;
+    margin-left: 48%;
+    backdrop-filter: blur(10px);
+}
+.news-1-txt{
+    position: absolute;
+    top: 27%;
+    margin-left: 54%;
+    color: white;
+}
+.news-1-txt p{
+    color: rgb(216, 213, 213);
+}
+.news-2{
+    position: relative;
+}
+.news-2 img{
+    height: 67%;
+    margin-left: -2%;
+}
+.news-2-txt{
+    position: absolute;
+    top: 27%;
+    margin-left: 10%;
+    color: white;
+}
+.news-2-txt p{
+    color: rgb(216, 213, 213);
+}
+.news-3{
+    position: relative;
+}
+.news-3 img{
+    height: 67%;
+    width: 70%;
+    margin-left: -70%;
+}
+.news-3-txt{
+    position: absolute;
+    top: 27%;
+    margin-left: -10%;
+    color: white;
+}
+.discover{
+    display: flex;
+    border: none;
+    padding: 4% 4%;
+    background-color: rgb(255, 166, 1);
+  margin-top: 5%;
+}
+.footer{
+    position:relative;
+    overflow: hidden;
+    display:flex;
+    border: none;
+    background-color: rgb(68, 63, 63);
+    
+    gap:5%;
+    color:white
+}
+.icons{
+    position: relative;
+    overflow: visible;
+}
+.address{
+    margin-left: 25%;
+}
+#linked{
+    position: relative;
+    overflow: visible;
+    top:-2%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
